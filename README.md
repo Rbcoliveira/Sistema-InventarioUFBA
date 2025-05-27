@@ -17,10 +17,13 @@ Foi desenvolvido um sistema simples e funcional para controle de inventário, co
 # 💻 Tecnologias utilizadas
 **Front-end**
 - HTML + CSS
+
 **Back-end**
 - Node.js, Java ou Python no backend
+
 **Banco de Dados**
 - SQLite, MySQL, MongoDB, etc.
+
 **IDE**
 - Vscode
 
