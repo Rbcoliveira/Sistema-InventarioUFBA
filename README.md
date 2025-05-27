@@ -41,6 +41,6 @@ Para colaborar:
 
 # ✍️ Autor
 - Desenvolvido por Herinque Torres Hatakeyama
-- Desenvolvido por Rebeca Oliveira
+- Desenvolvido por Rebeca Oliveira:
 www.linkedin.com/in/it-rebeca-oliveira 
 
