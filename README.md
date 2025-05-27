@@ -31,8 +31,7 @@ npm start
 http://localhost:3000
 
 # 🤝 Contribuição
-Contribuições são bem-vindas!
-
+**Contribuições são bem-vindas 🥳!**
 Para colaborar:
 1. Fork este repositório
 2. Crie uma branch com sua funcionalidade: git checkout -b minha-funcionalidade
