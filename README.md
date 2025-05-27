@@ -1,5 +1,5 @@
 # 📶 Sistema-Inventario
-Um sistema simples e funcional para controle de inventário, desenvolvido com foco em organização, praticidade e clareza. Ideal para registrar, consultar e gerenciar produtos ou ativos em estoque.
+Foi desenvolvido um sistema simples e funcional para controle de inventário, com foco em organização, praticidade e clareza. Ideal para registrar, consultar e gerenciar produtos ou ativos em estoque ou utilização na UFBA.
  
 # ✔️ Funcionalidades
 - Cadastro de produtos com nome, categoria, quantidade e localização.
