@@ -11,7 +11,7 @@ Foi desenvolvido um sistema simples e funcional para controle de inventário, co
 # 🧐 Ferramenta de Gestão
 - [Jira Software](https://sistemainventarioufba.atlassian.net/jira/software/projects/SIS/boards/34?atlOrigin=eyJpIjoiYjRlMjY5MDM1OTM1NDdiMTlkZWQxYWUxOTc4YjdkNzAiLCJwIjoiaiJ9)
 
-# 🖥️ Prototipação
+# 🖥️ Prototipação das Telas
 - [Figma](https://www.figma.com/design/2VC9PAVNE3RlkJOWdsCBlM/SistemaInvent%C3%A1rio?node-id=6-1361&t=QlkeVerWtieP3hGV-1)
 
 # 💻 Tecnologias utilizadas
@@ -26,8 +26,6 @@ Foi desenvolvido um sistema simples e funcional para controle de inventário, co
 
 **IDE**
 - Vscode
-
-# Prototipação das Telas
 
 # 📸 Capturas de tela
 
