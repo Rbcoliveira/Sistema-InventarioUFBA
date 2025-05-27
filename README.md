@@ -55,5 +55,5 @@ Para colaborar:
 
 # ✍️ Autor
 - Desenvolvido por Herinque Torres Hatakeyama
-- Desenvolvido por [Rebeca Araújo Oliveira](www.linkedin.com/in/it-rebeca-oliveira )
+- Desenvolvido por [Rebeca Araújo Oliveira](www.linkedin.com/in/it-rebeca-oliveira)
 
