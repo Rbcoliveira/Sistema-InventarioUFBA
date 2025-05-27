@@ -23,8 +23,7 @@ git clone https://github.com/seu-usuario/nome-do-repositorio
 - Acesse o projeto:
 cd nome-do-repositorio
 
-*[Se tiver setup:]*
-- Instale as dependências e execute:
+- Instale as dependências e execute: *[Se tiver setup:]*
 npm install
 npm start
 
@@ -41,8 +40,8 @@ Para colaborar:
 4. Faça o push: git push origin minha-funcionalidade
 5. Abra um Pull Request
 
-✍️ Autor
-Desenvolvido por Herinque Torres Hatakeyama
-Desenvolvido por Rebeca Oliveira
+# ✍️ Autor
+- Desenvolvido por Herinque Torres Hatakeyama
+- Desenvolvido por Rebeca Oliveira
 www.linkedin.com/in/it-rebeca-oliveira 
 
