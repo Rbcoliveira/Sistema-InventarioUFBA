@@ -1,2 +1,2 @@
-# Sistema-Invent-rio
+# Sistema-Inventario
 Sistema Inventário com CSS, Html e React
