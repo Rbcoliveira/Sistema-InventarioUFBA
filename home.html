@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home.css"/>
+    <link rel="stylesheet" href="style.css"/>
     <title>SistemaInventário - UFBA</title>
 </head>
 <body>
@@ -24,12 +24,6 @@
                 </svg>
             </div>
             <div>Adicionar</div>
-        </div>
-        <div class="search">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#0021F5" class="bi bi-search" viewBox="0 0 16 16">
-                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-            </svg>
-            <div>Localizar</div>
         </div>
         <div class="replace">
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#0021F5" class="bi bi-arrow-repeat" viewBox="0 0 16 16">
@@ -53,7 +47,7 @@
     </div>
     <div class="main">
         <div class="bar-perfil">
-            <div>Bem vindo, usuário.</div>
+            <div class="welcome">Olá, usuário.</div>
             <div>Inventário UFBA</div>
             <div class="icons-perfil">
                 <div class="icon-user">
@@ -63,16 +57,24 @@
                 </div>
             </div>
         </div>
+        <div class="pesquisa">
+            <input class="bar-pesquisa" placeholder="Pesquisar estabelecimento..."/>
+            <div class="buttom-pesquisa">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#808080" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                </svg>
+            </div>
+        </div>
         <div class="update">
-            <div class="quadro">
+            <div class="alertas">
                 <div>Alertas na última hora</div>
                 <h1>6</h1>
             </div>
-            <div class="quadro">
+            <div class="alertas">
                 <div>Alertas nas últimas 24 horas</div>
                 <h1>21</h1>
             </div>
-            <div class="quadro">
+            <div class="alertas">
                 <div>Total de alertas ativos</div>
                 <h1>118</h1>
             </div>
@@ -80,30 +82,22 @@
         <div class="estabelecimento">
             <div class="linha">
                 <div class="quadro">
-                    <h1>PAF I</h1>
+                    <h1>PAF I: Pavilhão de Aulas da Federação I Reitor Felipe Serpa</h1>
                     <div class="alert">19 alertas</div>
                 </div>
                 <div class="quadro">
-                    <h1>PAF I</h1>
-                    <div class="alert">19 alertas</div>
-                </div>
-                <div class="quadro">
-                    <h1>PAF I</h1>
-                    <div class="alert">19 alertas</div>
+                    <h1>PAF II: Pavilhão de Aulas da Federação II Prof. Alceu Hiltner</h1>
+                    <div class="alert">55 alertas</div>
                 </div>
             </div>
             <div class="linha">
                 <div class="quadro">
-                    <h1>PAF I</h1>
-                    <div class="alert">19 alertas</div>
+                    <h1>PAF III: Pavilhão de Aulas da Federação III Glauber Rocha</h1>
+                    <div class="alert">10 alertas</div>
                 </div>
                 <div class="quadro">
-                    <h1>PAF I</h1>
-                    <div class="alert">19 alertas</div>
-                </div>
-                <div class="quadro">
-                    <h1>PAF I</h1>
-                    <div class="alert">19 alertas</div>
+                    <h1>IME: Instituto de Matemática e Estatística da UFBA</h1>
+                    <div class="alert">34 alertas</div>
                 </div>
             </div>
         </div>
