@@ -4,18 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
-    <title>SistemaInventário - UFBA - PAF I</title>
+    <title>SistemaInventário UFBA - PAF I</title>
 </head>
 <body>
     <div class="main">
         <div class="bar-perfil">
-            <div class="welcome">Olá, usuário.</div>
-            <div class="siufba">SistemaInventário - UFBA</div>
-            <div class="icon-user">
-                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-                </svg>
+            <div class="icons">
+                <a class="icon-return" href="javascript:history.back()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="black" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+                    </svg>
+                </a>
+                <div class="icon-user">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                    </svg>
+                </div>
             </div>
+            <div class="siufba">SistemaInventário - UFBA</div>
+            <div class="welcome">Olá, usuário.</div>
         </div>
         <div class="pesquisa">
             <input class="bar-pesquisa" placeholder="Pesquisar sala..."/>
@@ -26,9 +33,25 @@
             </div>
         </div>
         <h1 class="title">PAF I: Pavilhão de Aulas da Federação I Reitor Felipe Serpa</h1>
-        <div class="unidades">
-            <div class="sala">Sala 120</div>
-            <div class="sala">Sala 121</div>
+        <div class="unidades-l">
+            <div class="unidades-c">
+                <div class="sala">Sala 001</div>
+                <div class="sala">Sala 002</div>
+                <div class="sala">Sala 003</div>
+                <div class="sala">Sala 004</div>
+            </div>
+            <div class="unidades-c">
+                <div class="sala">Sala 118</div>
+                <div class="sala">Sala 119</div>
+                <a class="sala" href="sala.html">Sala 120</a>
+                <div class="sala">Sala 121</div>
+            </div>
+            <div class="unidades-c">
+                <div class="sala">Sala 203</div>
+                <div class="sala">Sala 204</div>
+                <div class="sala">Sala 205</div>
+                <div class="sala">Sala 206</div>
+            </div>
         </div>
     </div>
 </body>
