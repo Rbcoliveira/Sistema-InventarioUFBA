@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
-    <title>SistemaInventário - UFBA</title>
+    <title>SistemaInventário UFBA</title>
 </head>
 <body>
     <div class="main">
         <div class="bar-perfil">
-            <div class="welcome">Olá, usuário.</div>
-            <div class="siufba">SistemaInventário - UFBA</div>
-            <div class="icon-user">
-                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-                </svg>
+            <div class="icons">
+                <div class="icon-user">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                    </svg>
+                </div>
             </div>
+            <div class="siufba">SistemaInventário - UFBA</div>
+            <div class="welcome">Olá, usuário.</div>
         </div>
         <div class="pesquisa">
             <input class="bar-pesquisa" placeholder="Pesquisar estabelecimento..."/>
@@ -41,24 +43,24 @@
         </div>
         <div class="estabelecimento">
             <div class="linha">
-                <div class="quadro">
-                    <h1>PAF I: Pavilhão de Aulas da Federação I Reitor Felipe Serpa</h1>
-                    <div class="alert">19 alertas</div>
-                </div>
-                <div class="quadro">
-                    <h1>PAF II: Pavilhão de Aulas da Federação II Prof. Alceu Hiltner</h1>
-                    <div class="alert">55 alertas</div>
-                </div>
+                <a class="quadro" href="estabelecimento.html">
+                    <div class="quadro-name">PAF I: Pavilhão de Aulas da Federação I Reitor Felipe Serpa</div>
+                    <div class="alert">Alertas:</div>
+                </a>
+                <a class="quadro">
+                    <div class="quadro-name">PAF II: Pavilhão de Aulas da Federação II Prof. Alceu Hiltner</div>
+                    <div class="alert">Alertas:</div>
+                </a>
             </div>
             <div class="linha">
-                <div class="quadro">
-                    <h1>PAF III: Pavilhão de Aulas da Federação III Glauber Rocha</h1>
-                    <div class="alert">10 alertas</div>
-                </div>
-                <div class="quadro">
-                    <h1>IME: Instituto de Matemática e Estatística da UFBA</h1>
-                    <div class="alert">34 alertas</div>
-                </div>
+                <a class="quadro">
+                    <div class="quadro-name">PAF III: Pavilhão de Aulas da Federação III Glauber Rocha</div>
+                    <div class="alert">Alertas:</div>
+                </a>
+                <a class="quadro">
+                    <div class="quadro-name">IME: Instituto de Matemática e Estatística da UFBA</div>
+                    <div class="alert">Alertas:</div>
+                </a>
             </div>
         </div>
     </div>
