@@ -4,18 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
-    <title>SistemaInventário - UFBA - PAF I - Sala 120</title>
+    <title>SistemaInventário UFBA - PAF I - Sala 120</title>
 </head>
 <body>
     <div class="main">
         <div class="bar-perfil">
-            <div class="welcome">Olá, usuário.</div>
-            <div class="siufba">SistemaInventário - UFBA</div>
-            <div class="icon-user">
-                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-                </svg>
+            <div class="icons">
+                <a class="icon-return" href="javascript:history.back()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="black" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+                    </svg>
+                </a>
+                <div class="icon-user">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                    </svg>
+                </div>
             </div>
+            <div class="siufba">SistemaInventário - UFBA</div>
+            <div class="welcome">Olá, usuário.</div>
         </div>
         <div class="pesquisa">
             <input class="bar-pesquisa" placeholder="Pesquisar objeto..."/>
@@ -26,9 +33,49 @@
             </div>
         </div>
         <h1 class="title">PAF I: Pavilhão de Aulas da Federação I Reitor Felipe Serpa - Sala 120</h1>
-        <div class="unidades">
-            <div class="objeto"></div>
+        <div class="unidades-l">
+            <div class="unidades-c">
+                <div class="objeto" onclick="on()">
+                    <div>Cadeiras</div>
+                    <div class="obj-alert">
+                        <div>Objetos danificados:</div>
+                        <div id="num1"></div>
+                    </div>
+                </div>
+                <div class="objeto">
+                    <div>Lâmpadas</div>
+                    <div class="obj-alert">
+                        <div>Objetos danificados:</div>
+                        <div>0</div>
+                    </div>
+                </div>
+            </div>
+            <div class="unidades-c">
+                <div class="objeto">
+                    <div>Ar-condicionados</div>
+                    <div class="obj-alert">
+                        <div>Objetos danificados:</div>
+                        <div>0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="overlay">
+            <div id="question">
+                <div>Relatar objeto(s) danificado(s)</div>
+                <div class="answer">
+                    <label>Quantos objetos danificados?*</label>
+                    <input id="numD" class="info" type="number"/>
+                </div>
+                <div class="answer">
+                    <label>Códigos separados por vírgula (se houver)</label>
+                    <textarea class="info"></textarea>
+                </div>
+                <button class="btn" onclick="off()">Enviar</button>
+                <button class="btn" onclick="off()">Cancelar</button>
+            </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
